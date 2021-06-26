@@ -5,7 +5,6 @@ import { API_URL } from "@/config/index";
 export default function EventsPage({ events }) {
   return (
     <Layout>
-      {console.log("front: " + events)}
       <h1>Eventos</h1>
       {events.length === 0 && <h3>No hay eventos para mostrar</h3>}
 
